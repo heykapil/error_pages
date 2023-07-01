@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+
+<!--
+  Copyright (C) 2023 TheRealOne78 <bajcsielias78@gmail.com>
+
+  This file is part of the 'TheRealOne78's error pages' project
+
+  'TheRealOne78's error pages' is free software: you can redistribute it and/or
+  modify it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or (at your
+  option) any later version.
+
+  'TheRealOne78's error pages' is distributed in the hope that it will be
+  useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General
+  Public License for more details.
+
+  You should have received a copy of the GNU General Public License along with
+  'TheRealOne78's error pages'. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="./css/error.css?version=1.1">
+
+    <style>
+    @font-face {
+      font-family: "VT323";
+      src: url('./fonts/VT323-Regular.ttf');
+    }
+    .license-img-container {
+      display: flex;
+      justify-content: end;
+      margin: 30px 0;
+    }
+    .license-img {
+      height: 75px;
+      margin: 0 0 0 25px;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div class="errContainer">
+      <div class="errImgContainer">
+        <img id="img" src="./img/0.checkmark.svg">
+      </div>
+      <div class="errContentContainer">
+        <div class="errItemText">
+          <div class="errItemTitle" id="start">
+            The server returned:<br>
+            <span class="errCode">It Works!</span>
+          </div>
+          <p>This page serves as listing for all error documents available and licensing.</p>
+          <p>Copy the error documents and assets into your server and link them to your <abbr title="HyperText Transfer Protocol">HTTP</abbr> daemon (Apache, Nginx, Lighttpd, etc.) with the propper error code.</p>
+
+          <h2 id="listing">Listing</h2>
+          * Error 404: <a href="./documents/404.htm">/documents/404.htm</a>;<br>
+          * Error 418: <a href="./documents/418.htm">/documents/418.htm</a>;<br>
+          * Error 500: <a href="./documents/500.htm">/documents/500.htm</a>.
+          <h2 id="source">Source</h2>
+          <p>You can get a copy of the source code for these error documents at <a href="https://github.com/TheRealOne78/error_pages/">https://github.com/TheRealOne78/error_pages/</a>.</p>
+          <h2 id="terms-of-use-and-licensing">Terms of use and licensing</h2>
+          <p>All HTML (HyperText Markup Language), CSS (Cascade Style Sheets) and JS (JavaScript) code is licensed under the terms of <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPLv3+</a>. You can find a copy of the GPLv3+ license at '<a href="./LICENSE.GPL3">/LICENSE.GPL3</a>' or at <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www.gnu.org/licenses/gpl-3.0.en.html</a>. If you are unable to find the license, contact the Free Software Foundation at <a href="mailto:licensing@gnu.org">licensing@gnu.org</a>.</p>
+
+          <p>All images including the ones in the SVG format are licensed under the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>. To view a copy of this license, see '<a href="./LICENSE.CCBY40">/LICENSE.CCBY40</a>' or visit <a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+          <p>All the other used assets are used under the Public Domain and are written in the "<a href="#list-of-assets-and-authors">List of Assets and authors</a>" list.</p>
+
+          <h2 id="list-of-assets-and-authors">List of assets and authors</h2>
+          * /fonts/VT323-Regular.ttf - by Peter Hull, licensed under the Open Font License, taken from <a href="https://fonts.google.com/specimen/VT323">https://fonts.google.com/specimen/VT323</a>.<span class="infinite-cursor"> ‎</span><br>
+          <div class="license-img-container">
+            <img src="./img/license/gpl-v3-logo.svg" class="license-img">
+            <img src="./img/license/by-sa.svg" class="license-img">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>

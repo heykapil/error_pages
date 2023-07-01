@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>404 - Not Found</title>
+    <link rel="stylesheet" href="../css/error.css?version=1.1">
+
+    <style>
+    @font-face {
+      font-family: "VT323";
+      src: url('../fonts/VT323-Regular.ttf');
+    }
+    </style>
+  </head>
+
+  <body>
+    <div class="errContainer">
+      <div class="errImgContainer">
+        <img id="img" src="../img/404.file.svg">
+      </div>
+      <div class="errContentContainer">
+        <div class="errItemText">
+          <div class="errItemTitle">
+            The server returned:<br>
+            <span class="errCode">Error 404 - Not Found</span>
+          </div>
+          <p>The <span class="file">file</span> you are looking for is currently NOT available in this server.</p>
+          <p>Check the URL for any mistakes like <span class="selected" id="w1">"that"</span> instead of <span class="selected" id="w2">"this"</span>.<br>
+          Note that URLs are case sensitive, meaning that <span class="selected" id="l1">"THIS"</span> is NOT <span class="selected" id="l2">"this"</span>.</p>
+          <p>If you think that this is a mistake and the page <i>should</i> exist, contact the owner of the server at <a href="mailto:user@domain" target="_blank">user@domain</a>.
+          You may request as well for this <span class="file">file</span> to be available.</p>
+          <p>Go back to the <a href="/index.html">main page</a>.<span class="infinite-cursor"> ‎</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="../script/script.js"></script>
+    <script src="../script/404.js"></script>
+  </body>
+</html>

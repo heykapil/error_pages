@@ -1,0 +1,87 @@
+html, body {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "VT323";
+}
+
+.selected {
+  background-color: #ffffff;
+  color: black;
+  font-family: 'VT323', monospace;
+}
+
+a {
+  text-decoration-style: dashed;
+  color: white;
+}
+
+a:hover {
+  background: transparent;
+  text-decoration: underline;
+}
+
+/* === Containers === */
+
+.errContainer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-items: center;
+}
+
+.errImgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  background-color: black;
+  min-width: 35%;
+  min-height: 100vh;
+}
+
+.errContentContainer {
+  font-family: 'VT323', monospace;
+  color: white;
+  font-size: 35px;
+  min-width: 60%;
+  margin: 0 50px;
+  text-align: justify;
+}
+
+#img {
+  margin: 25px;
+  max-height: 80%;
+  min-width: 65%;
+  max-width: 80%;
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+.errItemTitle {
+  font-family: 'VT323', monospace;
+  font-size: 100px;
+  margin: 15px 0 15px 0;
+}
+
+.infinite-cursor {
+  animation: infinite-cursor 1.75s infinite;
+}
+@keyframes infinite-cursor {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: black;
+  }
+  51% {
+    background-color: currentColor;
+  }
+  100% {
+    background-color: currentColor;
+  }
+}

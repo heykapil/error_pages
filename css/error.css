@@ -76,7 +76,7 @@ abbr {
 }
 
 #img {
-  margin: 25px;
+  margin: 0 25px;
   max-height: 80%;
   min-width: 65%;
   max-width: 80%;

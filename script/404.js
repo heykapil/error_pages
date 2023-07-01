@@ -1,4 +1,4 @@
-const err_res_url = "./";
+const err_res_url = "../";
 
 const word = [
   "dukc"   , "duck"  ,

@@ -8,6 +8,10 @@ All images including the ones in the SVG format are licensed under the <a href="
 
 All the other used assets are used under the Public Domain and are written in the "<a href="#list-of-other-assets-and-authors">List of other assets and authors</a>" list.
 
+Since the error documents are licensed under the GNU GPLv3+ license, when you modify the error pages, you have to comply with the license - you can integrate software that is permissive, but not the other way. For example, you can't add proprietary JavaScript code, but you can add (free and) open source JavaScript code that is compatible with the GNU GPLv3+ license.
+
+Even if the error documents are licensed under the GNU GPLv3+ license, you can still deliver non-free resources as long as the error documents and the other resources don't interract with each other when delivering to the client. When the client will have the error documents delivered, the host must not deliver resources that are not compatible with the GNU GPLv3 license.
+
 ## List of other assets and authors
 
 * /fonts/VT323-Regular.ttf - by Peter Hull, licensed under the Open Font License, taken from [https://fonts.google.com/specimen/VT323](https://fonts.google.com/specimen/VT323);
@@ -18,13 +22,51 @@ All the other used assets are used under the Public Domain and are written in th
 .
 ├── LICENSE.CCBY40
 ├── LICENSE.GPL3
+├── LICENSE.TXT
 ├── README.MD
 ├── css
 │   └── error.css
 ├── documents
+│   ├── 400.htm
+│   ├── 401.htm
+│   ├── 402.htm
+│   ├── 403.htm
 │   ├── 404.htm
+│   ├── 405.htm
+│   ├── 406.htm
+│   ├── 407.htm
+│   ├── 408.htm
+│   ├── 409.htm
+│   ├── 410.htm
+│   ├── 411.htm
+│   ├── 412.htm
+│   ├── 413.htm
+│   ├── 414.htm
+│   ├── 415.htm
+│   ├── 416.htm
+│   ├── 417.htm
 │   ├── 418.htm
-│   └── 500.htm
+│   ├── 421.htm
+│   ├── 422.htm
+│   ├── 423.htm
+│   ├── 424.htm
+│   ├── 425.htm
+│   ├── 426.htm
+│   ├── 428.htm
+│   ├── 429.htm
+│   ├── 431.htm
+│   ├── 451.htm
+│   ├── 500.htm
+│   ├── 501.htm
+│   ├── 502.htm
+│   ├── 503.htm
+│   ├── 504.htm
+│   ├── 505.htm
+│   ├── 506.htm
+│   ├── 507.htm
+│   ├── 508.htm
+│   ├── 510.htm
+│   └── 511.htm
 ├── fonts
 │   └── VT323-Regular.ttf
 ├── img
@@ -38,7 +80,8 @@ All the other used assets are used under the Public Domain and are written in th
 ├── index.html
 └── script
     ├── 404.js
+    ├── file.js
     └── script.js
 
-7 directories, 17 files
+7 directories, 56 files
 ```

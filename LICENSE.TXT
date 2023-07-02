@@ -1,0 +1,45 @@
+SOURCE
+
+You can get a copy of the source code for these error documents at
+https://github.com/TheRealOne78/error_pages/.
+
+
+TERMS OF USE AND LICENSING
+
+All HTML (HyperText Markup Language), CSS (Cascade Style Sheets) and JS
+(JavaScript) code is licensed under the terms of GNU GPLv3+. You can find a
+copy of the GPLv3+ license at './LICENSE.GPL3' or at
+https://www.gnu.org/licenses/gpl-3.0.en.html. If you are unable to find the
+license, contact the Free Software Foundation at <licensing@gnu.org>.
+
+All images including the ones in the SVG format are licensed under the Creative
+Commons Attribution 4.0 International (CC BY 4.0), except for the images in the
+'/img/license/' directory which are made by the Free Software Foundation and
+Creative Commons. To view a copy of this license, see './LICENSE.CCBY40' or
+visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative
+Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+All the other used assets are used under the Public Domain and are written in
+the "List of other assets and authors" list.
+
+Since the error documents are licensed under the GNU GPLv3+ license, when you
+modify the error pages, you have to comply with the license - you can integrate
+software that is permissive, but not the other way. For example, you can't add
+proprietary JavaScript code, but you can add (free and) open source JavaScript
+code that is compatible with the GNU GPLv3+ license.
+
+Even if the error documents are licensed under the GNU GPLv3+ license, you can
+still deliver non-free resources as long as the error documents and the other
+resources don't interract with each other when delivering to the client. When
+the client will have the error documents delivered, the host must not deliver
+resources that are not compatible with the GNU GPLv3 license.
+
+
+LIST OF OTHER ASSETS AND AUTHORS
+
+* /fonts/VT323-Regular.ttf - by Peter Hull, licensed under the Open Font
+    License, taken from https://fonts.google.com/specimen/VT323;
+* /img/license/by.svg - by Creative Commons, licensed under the Creative
+    Commons Attribution 4.0 International (CC BY 4.0) license;
+* /img/license/gpl-v3-logo.svg - by the Free Software Foundation for the GNU
+    GPLv3 license, available as public domain.

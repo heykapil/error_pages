@@ -22,7 +22,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>404 - Not Found</title>
+    <title>411 - Length Required</title>
     <link rel="stylesheet" href="../css/error.css?version=1.1">
 
     <style>
@@ -36,25 +36,21 @@
   <body>
     <div class="errContainer">
       <div class="errImgContainer">
-        <img id="img" src="../img/404.file.svg">
+        <img id="img" src="../img/.svg">
       </div>
       <div class="errContentContainer">
         <div class="errItemText">
           <div class="errItemTitle">
             The server returned:<br>
-            <span class="errCode">Error 404 - Not Found</span>
+            <span class="errCode">Error 411 - Length Required</span>
           </div>
-          <p>The <span class="file">resource</span> you are looking for is currently NOT available in this server.</p>
-          <p>Check the <abbr title="Uniform Resource Locator - check the address bar">URL</abbr> address for any mistakes like <span class="selected" id="w1">"that"</span> instead of <span class="selected" id="w2">"this"</span>.<br>
-          Note that <abbr title="Uniform Resource Locator - check the address bar">URL</abbr>s are case sensitive, meaning that <span class="selected" id="l1">"THIS"</span> is NOT <span class="selected" id="l2">"this"</span>.</p>
-          <p>If you think that this is a mistake and the <span class="file">resource</span> <i>should</i> exist, contact the owner of the server at <a href="mailto:user@domain" target="_blank">user@domain</a>.
-          You may request as well for this <span class="file">resource</span> to be available.</p>
+          <p>The HyperText Transfer Protocol (HTTP) <span class="selected">411 Length Required</span> client error response code indicates that the server refuses to accept the request without a defined <span class="selected">Content-Length</span> header.<br>
+            - Source: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/411">developer.mozilla.org</a></p>
+          <p>You can contact me via E-mail at <a href="mailto:user@domain" target="_blank">user@domain</a>.</p>
           <p>Go back to the <a href="/index.html">main page</a>.<span class="infinite-cursor"> ‎</span></p>
         </div>
       </div>
     </div>
     <script src="../script/script.js"></script>
-    <!-- Do not use ../script/file.js -->
-    <script src="../script/404.js"></script>
   </body>
 </html>

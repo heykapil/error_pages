@@ -99,6 +99,7 @@ abbr {
   font-family: 'VT323', monospace;
   font-size: 100px;
   margin: 15px 0 15px 0;
+  text-align: left;
 }
 
 .infinite-cursor {

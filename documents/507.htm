@@ -22,7 +22,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>500 - Internal Server Error</title>
+    <title>507 - Insufficient Storage</title>
     <link rel="stylesheet" href="../css/error.css?version=1.1">
 
     <style>
@@ -42,10 +42,12 @@
         <div class="errItemText">
           <div class="errItemTitle">
             The server returned:<br>
-            <span class="errCode">Error 500 - Internal Server Error</span>
+            <span class="errCode">Error 507 - Insufficient Storage</span>
           </div>
-          <p>The <span id="file">resource</span> search you are looking for has resulted in a fatal error called <span class="selected">"Internal Server Error"</span>.</br>
-          This error can be made by the server because of server missconfiguration, high network trafic or just a simple glitch caused in the server.</p>
+          <p>The <span id="file">resource</span> search you are looking for has resulted in an error called <span class="selected">"Insufficient Storage"</span>.</p>
+          <p>The HyperText Transfer Protocol (HTTP) <span class="selected">507 Insufficient Storage</span> response status code may be given in the context of the Web Distributed Authoring and Versioning (WebDAV) protocol (see <a href="https://datatracker.ietf.org/doc/html/rfc4918">RFC 4918</a>).</p>
+          <p>It indicates that a method could not be performed because the server cannot store the representation needed to successfully complete the request.<br>
+          - Source: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/507">developer.mozilla.org</a></p>
           <p>Try refreshing this page by pressing <span class="selected" title="CTRL-R">CTRL+R</span>, <span class="selected" title="<F5>">F5</span>, <span class="selected" title="CTRL-<F5>">CTRL+F5</span>, clicking the <span class="selected" title="⟳">refresh</span> button or swiping down the page on mobile.<br>
           If that method did not fix the problem, try refreshing or accessing the page later.</p>
           <p>To report this, send me an E-mail at <a href="mailto:user@domain" target="_blank">user@domain</a>.</p>

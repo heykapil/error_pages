@@ -146,6 +146,7 @@ switch(extension) {
   case "wma":
   case "flac":
   case "alac":
+  case "opus":
   for(let i = 0; i < fileCollection.length; i++)
     fileCollection[i].innerHTML = "audio file";
     document.getElementById("img").src = `${err_res_url}img/404.music.svg`;

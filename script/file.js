@@ -106,6 +106,7 @@ switch(extension) {
   case "wma":
   case "flac":
   case "alac":
+  case "opus":
   for(let i = 0; i < fileCollection.length; i++)
     fileCollection[i].innerHTML = "audio file";
     break;
